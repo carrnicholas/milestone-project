@@ -1,0 +1,198 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #f2f3f4;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+header {
+  height: 600px; /* original 424 */
+  font-family: 'Lora', serif;
+  background: url('../img/macbook-desk-3.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+/* Backgrond image problem FIXED by using bottom center no-repeat */
+
+header h1 {
+  color: #000000;
+  font-size: 36px;
+  padding: 65px 0px 65px 25px;
+}
+
+.coffee {
+  color: #6699cc;
+}
+
+header h2 {
+  color: #5d8aa8;
+}
+
+nav {
+  float: right;
+  padding:10px 15px;
+}
+
+nav ul li {
+  float: right;
+  padding: 15px;
+  list-style-type: none;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: lowercase;
+  color: #ff6347;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav li a:hover {
+  text-transform: uppercase;
+}
+
+header h2 {
+  clear: both;
+}
+
+#about .full-width {
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 28px;
+  color: #5d8aa8;
+  text-align: center;
+}
+
+#about p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+#help h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 28px;
+  color: #5d8aa8;
+  text-align: center;
+}
+
+#help a {
+  text-decoration: none;
+  text-transform: none;
+  color: #5d8aa8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#help a:hover {
+  text-decoration: none;
+  color: #ff6347;
+}
+
+#portfolio h2 {
+  text-align: center;
+  color: #5d8aa8;
+  font-size: 28px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#portfolio h3 {
+  text-align: center;
+  color: #c0c0c0;
+  font-size: 20px;
+}
+
+#portfolio .third-width p {
+  padding: 10px;
+  text-align: center;
+}
+
+#portfolio span {
+  color: #5d8aa8;
+  font-family: 'Merriweather', serif;
+}
+
+#connect h3 {
+  text-align: center;
+  color: #f2f3f4;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#connect h4 {
+  text-align: center;
+}
+
+#connect p {
+  text-align: center;
+}
+
+#connect ul li {
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+#connect .third-width p {
+  text-align: center;
+}
+
+#connect .third-width a {
+  text-decoration: none;
+}
+
+footer {
+  background: #5d8aa8;
+}
+
+footer .full-width li {
+  color: #f2f3f4;
+}
+
+footer .full-width h4 {
+  color: #c0c0c0;
+}
+
+footer .full-width p {
+  color: #f2f3f4;
+}
+
+footer a:link {
+  text-decoration: none;
+  text-transform: none;
+  color: #f2f3f4;
+}
+
+footer a:hover {
+  text-decoration: none;
+  text-transform: none;
+  color: #ff6347;
+}
+
+.go a:link {
+  text-decoration: none;
+  text-transform: none;
+  color: #f2f3f4;
+}
+
+.go a:hover {
+  text-decoration: none;
+  text-transform: none;
+  color: #ff6347;
+}
