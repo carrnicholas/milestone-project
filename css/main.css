@@ -179,10 +179,10 @@ footer a:link {
   color: #f2f3f4;
 }
 
-footer a:hover {
+footer p a:hover {
   text-decoration: none;
-  text-transform: none;
-  color: #ff6347;
+  text-transform: underline;
+  color: red;
 }
 
 .go a:link {
